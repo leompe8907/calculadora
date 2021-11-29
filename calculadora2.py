@@ -80,8 +80,6 @@ resultado.place(x=30,y=30,width=430,height=40)#ubicacion y tamaño#
 tabla_resultados=tk.Listbox()
 tabla_resultados.place(width=300, height=350,x=485,y=30)
 
-
-
 #boton de accion#
 boton_limpiar=ttk.Button(text="limpiar",command=limpiar)
 boton_limpiar.place(width=300, height=45,x=485,y=382)
